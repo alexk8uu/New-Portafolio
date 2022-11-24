@@ -10,7 +10,7 @@ function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 60,
-      strings: ["Full Stack", "Web Designer", "Frontend"],
+      strings: ["Full Stack Developer", "Ux / Ui Designer", "Web Designer"],
     });
   }, []);
 
@@ -26,7 +26,7 @@ function Intro() {
           <h2>Hola, Soy</h2>
           <h1>Fredy Alejandro Carrizo</h1>
           <h3>
-            Developer <span ref={textRef}></span>
+            Freelancer <span ref={textRef}></span>
           </h3>
         </div>
         <a href="#about">

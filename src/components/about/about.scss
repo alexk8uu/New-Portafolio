@@ -31,14 +31,12 @@
             }
             
             span{
-                
-                font-size: 18px;
+                font-size: 17px;
             }
         }
     } 
     .bottom{
-        flex: 0.6;
-        
+        flex: 0.6;  
         .containerBottom{
             display: flex;
             .containerInfo{
@@ -66,6 +64,10 @@
                 .textContainer{
                     margin-top: 5px;
                     text-align: center;
+
+                    span {
+                        font-size: 14px;
+                    }
                 }
 
             }
@@ -77,7 +79,6 @@
   }
   .right {
     flex: 0.3;
-   
     display: flex;
     align-items: center;
     justify-content: center;

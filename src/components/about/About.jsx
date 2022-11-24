@@ -9,10 +9,11 @@ function About(props) {
             <h2>SOBRE MI</h2>
             <div className="line"></div>
             <span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-              perferendis quod dolor maiores mollitia qui, sunt, voluptas
-              provident veniam odit a cum quibusdam omnis? Officia eaque
-              eligendi magni iure exercitationem.
+              Soy de la ciudad de Salta, Argentina 🌍 me cruce con la
+              programacion durante la pandemia y en ella encontre la
+              oportunidad de explotar todas mis habilidades a través de la tecnología, donde
+              aún tengo mucho que aprender y conocer pero estoy dispuesto a
+              tomar este camino.
             </span>
           </div>
         </div>
@@ -25,9 +26,9 @@ function About(props) {
               <div className="textContainer">
                 <h3>Perfil</h3>
                 <span>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-                  non quibusdam dolorem eveniet natus, laborum dolores
-                  distinctio. Sunt eveniet molestias
+                  Adquirí estas habilidades en un bootcamp de Soy Henry de más
+                  de 800 hrs. Me caracterizo por la capacidad que tengo para la
+                  adaptacion y resolución de problema
                 </span>
               </div>
             </div>
@@ -38,9 +39,8 @@ function About(props) {
               <div className="textContainer">
                 <h3>Skills</h3>
                 <span>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-                  non quibusdam dolorem eveniet natus, laborum dolores
-                  distinctio. Sunt eveniet molestias
+                  Cuento con amplios conocimientos en Javascript, React, React
+                  Native, Redux, Figma, Photoshop, HTML, Css, entre muchos otros
                 </span>
               </div>
             </div>
@@ -51,10 +51,8 @@ function About(props) {
               <div className="textContainer">
                 <h3>Hobbies</h3>
                 <span>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-                  non quibusdam dolorem eveniet natus, laborum dolores
-                  distinctio. Sunt eveniet molestias
-                </span>
+                 Me gusta mucho viajar, pasar el dia con mis amigos y jugar videojuegos.
+                </span> 
               </div>
             </div>
             <div className="containerInfo">
@@ -64,9 +62,7 @@ function About(props) {
               <div className="textContainer">
                 <h3>Music</h3>
                 <span>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-                  non quibusdam dolorem eveniet natus, laborum dolores
-                  distinctio. Sunt eveniet molestias
+                  Soy fanatico de la musica me acompaña todo los dias. Podria decir que mis generos favoritos son la Electronica y el Hip-Hop.
                 </span>
               </div>
             </div>

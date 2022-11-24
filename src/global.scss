@@ -10,3 +10,14 @@ $mainVerdeAgua: #b4ccb9;
 $mainVerdeFondo: #33e453;
 $mainCelesteClaro: #26979f;
 $mainGrisOscuro: #3b3b3b;
+
+
+
+
+$width : 768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}) {
+        @content
+    }
+}

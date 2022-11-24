@@ -4,6 +4,11 @@
   background-color: white;
   display: flex;
 
+  @include mobile{
+    flex-direction: column;
+    align-items: center;
+  }
+
   .left {
     flex: 0.5;
     overflow: hidden;
@@ -18,9 +23,16 @@
       align-items: flex-start;
       justify-content: center;
       float: right;
+
+      
       img {
         margin-top: 20px;
         height: 70%;
+
+        @include mobile{
+          height: 45%;
+        }
+
       }
     }
   }
@@ -36,15 +48,33 @@
       flex-direction: column;
       justify-content: center;
 
+
+      @include mobile{
+        padding-left: 0px;
+        align-items: center;
+        height: 80%;
+      }
+
+
       h1 {
         font-size: 55px;
         margin: 10px 0;
+
+        @include mobile{
+          font-size: 35px;
+        }
+
       }
       h2 {
         font-size: 40px;
       }
       h3 {
         font-size: 30px;
+
+        @include mobile{
+          font-size: 22px;
+        }
+
 
         span {
           font-size: inherit;
@@ -71,9 +101,15 @@
       bottom: 10px;
       left: 40%;
 
+      @include mobile{
+        bottom: 60px;
+      }
+
       img {
         width: 80px;
         animation: arrowBlink 2s infinite;
+
+        
       }
       @keyframes arrowBlink {
         100% {
