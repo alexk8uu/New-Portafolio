@@ -32,6 +32,13 @@
         margin-bottom: 20px;
 
 
+        @include mobile {
+         flex: 1;
+         margin-bottom: 40px;
+         align-items: flex-start;
+         width: 80%;
+        }
+
         .cardContainer{
             margin: 0 20px;
             width: 120px;
@@ -48,7 +55,15 @@
             -webkit-user-select: none;
             -moz-user-select: none;
             -ms-user-select: none;
-            user-select: none; 
+            user-select: none;        
+
+
+            @include mobile{
+                width: 100px;
+                height: 100px;
+                margin: 10px 30px;
+    
+            }
 
 
             &:hover{

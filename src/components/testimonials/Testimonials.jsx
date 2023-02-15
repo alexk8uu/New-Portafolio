@@ -2,6 +2,11 @@ import "./testimonials.scss";
 import { testimonials } from "../../data.js";
 
 function Testimonials(props) {
+
+
+
+
+
   return (
     <div className="testimonials" id="testimonials">
       <h1>Referencias</h1>
